@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../imagens/music_x.jpg);
+    background-position: center top;
+    background-size:cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+}
+h1{
+    color:rgb(168, 236, 233);
+    font-weight: 880;
+    font-family: 'Times New Roman', Times;
+    text-align: center;
+}
+#area{
+    position:relative;
+    left: 37%;
+    top:30%;
+    width: 320px;
+    height: 270px;
+}
+#area #formulario{
+    position: absolute;
+    display: block;
+}
+
+fieldset{
+    background-color:#2268b8;
+    width: 350px;
+    height: 200px;
+}
+
+legend{
+    background-color:#9708e9;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#formulario label{
+    background-color:#ecc100;
+    position: absolute;
+    left: 3px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+#formulario label.lbel{
+    margin-top: 10px;
+}
+
+#formulario input.campo_nome{
+    background-color:#f1ff00;
+    position: absolute;
+    left: 115px;
+    top: 23px;
+    width: 225px;
+    margin-top: 10px;
+}
+#formulario input.campo_ban{
+    background-color:#f1ff00;
+    position: absolute;
+    left: 115px;
+    margin-top: 10px;
+    width: 225px;
+}
+#formulario label.lbel_ba{
+    margin-top: 11px;
+}
+
+
+#formulario input.campo_gen{
+    background-color:#f1ff00;
+    position: absolute;
+    left: 80px;
+    width: 225px;
+    margin-top: 14px;
+}
+#formulario label.lbel_ge{
+    margin-top: 14px;
+}
+#formulario input.campo_album{
+    background-color:#f1ff00;
+    position: absolute;
+    left: 80px;
+    width: 225px;
+    margin-top: 17px;
+}
+#formulario label.lbel_al{
+    margin-top: 18px;
+}
+
+#formulario input.btn_submit{
+    border-style:dashed;
+    position:absolute;
+    bottom: 0.5em;
+    right:10px;
+    background-color:#471c77;
+}
+
